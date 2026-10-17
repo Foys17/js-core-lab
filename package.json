@@ -1,0 +1,31 @@
+{
+  "name": "js-core-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:03": "nodemon 03-express-basics/index.js",
+    "dev:04": "nodemon 04-express-middleware/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foys17/js-core-lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Foys17/js-core-lab/issues"
+  },
+  "homepage": "https://github.com/Foys17/js-core-lab#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
